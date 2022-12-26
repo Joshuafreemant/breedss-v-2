@@ -1,0 +1,30 @@
+.about__container-page>h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.about__description-page>p{
+    line-height: 1.7;
+    font-size: var(--small-font-size);
+    margin-bottom: 2rem;
+    
+}
+.about__description-page>h1{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:768px){
+    .about__container-page>h1{
+        font-size: 3rem;
+        margin-top: 7rem;
+       
+    }
+    .about__description-page>h1{
+      
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    
+  }

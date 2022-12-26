@@ -1,0 +1,34 @@
+.terms__container>h1{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+.terms__container>p{
+    line-height: 1.7;
+    font-size: var(--small-font-size);
+    margin-bottom: 1rem;
+    font-weight: 500;
+
+}
+.terms__container-content>p{
+    line-height: 1.7;
+    font-size: var(--small-font-size);
+    margin-bottom: 2rem;
+}
+.terms__container-content>h2{
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width:768px){
+    .terms__container>h1 {
+        font-size: 2.6rem;
+      margin-top: 7rem;
+    }
+    .terms__container-content>h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+  }
+  

@@ -1,0 +1,20 @@
+.accessibilty__container>h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.accessibility__content>p{
+    line-height: 1.7;
+    font-size: var(--small-font-size);
+    margin-bottom: 1.3rem;
+}
+@media screen and (max-width:768px){
+
+    .accessibilty__container>h1 {
+        font-size: 3rem;
+      margin-top: 7rem;
+    }
+
+   
+
+    
+  }

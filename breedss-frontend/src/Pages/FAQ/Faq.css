@@ -1,0 +1,45 @@
+.faqs__container>details>summary{
+    color: var(--white-color);
+    background-color: var(--first-color);
+    padding: 0.5rem;
+    
+ }
+ 
+ .faqs__container>details{
+     margin-bottom: 0.4rem;
+     
+     
+ }
+ details>p{
+     margin-left: 1.5rem;
+     margin-top: .5rem;
+ }
+ .faq__heading{
+     font-size: 4rem;
+     font-weight: 600;
+ 
+ }
+ .faqs__title>h3{
+     font-size: var(--h2-font-size);
+     margin: 0 auto .5em;
+ }
+ 
+ @media screen and (max-width:768px){
+    
+     
+     .faq__heading {
+         font-size: 3rem;
+         margin-top: 7rem;
+     }
+     .faqs__container>details{
+         margin-bottom: 0.8rem; 
+     }
+     details>p{
+     
+         font-size: 0.8rem;
+     }
+     .faqs__container>details>summary{
+    
+         font-size:.9rem ;
+      }
+   }
